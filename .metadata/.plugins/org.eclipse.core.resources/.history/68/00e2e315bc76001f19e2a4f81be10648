@@ -293,8 +293,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	int counter = 7;
-	int counter_2 = 5;
+	int counter = 8;
 	int count = 0;
 	HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
 	HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, SET);
@@ -312,7 +311,6 @@ int main(void)
   		  HAL_GPIO_WritePin(LED_RED_2_GPIO_Port, LED_RED_2_Pin, SET);
   		  count = 0;
   		  counter = 7;
-  		  counter_2 = 5;
   		}
 
   		// Red light1
@@ -323,7 +321,7 @@ int main(void)
   		if (count == 7)
   		{
   		  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
-  		  counter = 5;
+  		  counter = 3;
   		}
 
   		// Green light1
@@ -343,7 +341,8 @@ int main(void)
   		  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, RESET);
   		}
 
-
+  		display7SEG(counter);
+  		counter--;
   		//--------
 
   		// Green light2
@@ -354,7 +353,6 @@ int main(void)
   		if (count == 5)
   		{
   			HAL_GPIO_WritePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin, SET);
-  			counter_2 = 2;
   		}
 
   		// Yellow light2
@@ -365,19 +363,12 @@ int main(void)
   		if (count == 7)
   		{
   			HAL_GPIO_WritePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin, SET);
-  			counter_2 = 7;
   		}
   		// Red light2
   		if (count >=7 && count <= 14)
   		{
   			HAL_GPIO_WritePin(LED_RED_2_GPIO_Port, LED_RED_2_Pin, RESET);
   		}
-
-
-  		display7SEG(counter);
-		counter--;
-  		display7SEG_2(counter_2);
-  		counter_2--;
 
         count++;
         HAL_Delay(1000);

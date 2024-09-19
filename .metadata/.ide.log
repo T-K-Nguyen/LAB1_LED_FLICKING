@@ -2152,3 +2152,100 @@
 2024-09-19 11:42:41,504 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2720mS.
 2024-09-19 11:42:41,504 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2024-09-19 11:42:41,506 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-19 12:11:13,404 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 949072192 Bytes (1073741824)
+2024-09-19 12:11:13,468 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 852342648 Bytes (1073741824)
+2024-09-19 12:11:20,558 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 846445280 Bytes (1073741824)
+2024-09-19 12:11:20,703 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-09-19 12:11:20,704 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-09-19 12:11:20,704 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-09-19 12:11:20,704 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-09-19 12:11:20,705 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-09-19 12:11:20,982 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp_save
+2024-09-19 12:11:21,030 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp
+2024-09-19 12:11:21,054 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp_save
+2024-09-19 12:11:21,114 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp
+2024-09-19 12:11:21,150 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c_save
+2024-09-19 12:11:21,202 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c
+2024-09-19 12:11:21,212 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h_save
+2024-09-19 12:11:21,257 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h
+2024-09-19 12:11:21,273 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c_save
+2024-09-19 12:11:21,332 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c
+2024-09-19 12:11:21,334 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp_save
+2024-09-19 12:11:21,363 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp
+2024-09-19 12:11:21,374 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-09-19 12:11:21,432 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h
+2024-09-19 12:11:21,456 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h_save
+2024-09-19 12:11:21,509 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h
+2024-09-19 12:11:21,521 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c_save
+2024-09-19 12:11:21,595 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c
+2024-09-19 12:11:22,095 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 63mS.
+2024-09-19 12:11:22,097 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-09-19 12:11:22,526 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-09-19 12:11:23,657 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1560mS.
+2024-09-19 12:11:23,658 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-09-19 12:11:23,659 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-19 12:16:35,160 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 903128616 Bytes (1073741824)
+2024-09-19 12:16:35,233 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 919097480 Bytes (1073741824)
+2024-09-19 12:16:35,697 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 880403272 Bytes (1073741824)
+2024-09-19 12:16:35,846 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-09-19 12:16:35,846 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-09-19 12:16:35,846 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-09-19 12:16:35,846 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-09-19 12:16:35,847 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-09-19 12:16:36,064 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp_save
+2024-09-19 12:16:36,097 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp
+2024-09-19 12:16:36,115 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp_save
+2024-09-19 12:16:36,172 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp
+2024-09-19 12:16:36,216 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c_save
+2024-09-19 12:16:36,259 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c
+2024-09-19 12:16:36,262 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h_save
+2024-09-19 12:16:36,300 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h
+2024-09-19 12:16:36,314 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c_save
+2024-09-19 12:16:36,371 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c
+2024-09-19 12:16:36,373 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp_save
+2024-09-19 12:16:36,400 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp
+2024-09-19 12:16:36,411 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-09-19 12:16:36,466 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h
+2024-09-19 12:16:36,489 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h_save
+2024-09-19 12:16:36,544 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h
+2024-09-19 12:16:36,554 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c_save
+2024-09-19 12:16:36,622 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c
+2024-09-19 12:16:37,311 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 74mS.
+2024-09-19 12:16:37,313 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-09-19 12:16:37,558 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-09-19 12:16:38,620 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1307mS.
+2024-09-19 12:16:38,620 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-19 12:16:38,621 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-20 02:14:09,477 [INFO] Gpio:254 - dependency for GPIO [SYS]
+2024-09-20 02:15:15,958 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 895764896 Bytes (1073741824)
+2024-09-20 02:15:16,034 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 906547144 Bytes (1073741824)
+2024-09-20 02:15:16,492 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 937970456 Bytes (1073741824)
+2024-09-20 02:15:17,027 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-09-20 02:15:17,028 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-09-20 02:15:17,028 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-09-20 02:15:17,028 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-09-20 02:15:17,032 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-09-20 02:15:17,390 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp_save
+2024-09-20 02:15:17,432 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\license.tmp
+2024-09-20 02:15:17,505 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp_save
+2024-09-20 02:15:17,553 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\gpio.tmp
+2024-09-20 02:15:17,612 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c_save
+2024-09-20 02:15:17,671 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_it.c
+2024-09-20 02:15:17,686 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h_save
+2024-09-20 02:15:17,735 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_it.h
+2024-09-20 02:15:17,755 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c_save
+2024-09-20 02:15:17,825 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\stm32f1xx_hal_msp.c
+2024-09-20 02:15:17,842 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp_save
+2024-09-20 02:15:17,911 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\MXTmpFiles\system.tmp
+2024-09-20 02:15:17,995 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-09-20 02:15:18,138 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\stm32f1xx_hal_conf.h
+2024-09-20 02:15:18,234 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h_save
+2024-09-20 02:15:18,346 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Inc\main.h
+2024-09-20 02:15:18,370 [INFO] CodeEngine:239 - oldGeneratedFile, C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c_save
+2024-09-20 02:15:18,455 [INFO] CodeEngine:257 - Generated code: C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\Core\Src\main.c
+2024-09-20 02:15:19,300 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 69mS.
+2024-09-20 02:15:19,302 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-09-20 02:15:20,166 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-09-20 02:15:21,490 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2188mS.
+2024-09-20 02:15:21,491 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-20 02:15:21,493 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
