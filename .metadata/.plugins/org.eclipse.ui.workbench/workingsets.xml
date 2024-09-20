@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726216659418_0" label="Window Working Set" name="Aggregate for window 1726216659418"/>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726804925430_1" label="LED_FLICKING" name="LED_FLICKING">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/LED_FLICKING" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726804404295_0" label="Window Working Set" name="Aggregate for window 1726804404295"/>
+<mruList name="LED_FLICKING"/>
 </workingSetManager>
