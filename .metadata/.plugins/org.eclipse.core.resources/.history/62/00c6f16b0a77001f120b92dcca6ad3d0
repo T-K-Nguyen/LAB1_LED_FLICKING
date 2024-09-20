@@ -90,60 +90,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int num = 0;
   HAL_GPIO_WritePin(GPIOA, ONE_Pin|TWO_Pin|THREE_Pin|FOUR_Pin
 						|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
 						|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
   while (1)
   {
-	  if(num==12){
-		  num = 0;
-		  HAL_GPIO_WritePin(GPIOA, ONE_Pin|TWO_Pin|THREE_Pin|FOUR_Pin
-							|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
-							|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
-	  }
-	  switch (num) {
-		case 0:
-			HAL_GPIO_WritePin(GPIOA, ONE_Pin, RESET);
-			break;
-		case 1:
-			HAL_GPIO_WritePin(GPIOA, TWO_Pin, RESET);
-			break;
-		case 2:
-			HAL_GPIO_WritePin(GPIOA, THREE_Pin, RESET);
-			break;
-		case 3:
-			HAL_GPIO_WritePin(GPIOA, FOUR_Pin, RESET);
-			break;
-		case 4:
-			HAL_GPIO_WritePin(GPIOA, FIVE_Pin, RESET);
-			break;
-		case 5:
-			HAL_GPIO_WritePin(GPIOA, SIX_Pin, RESET);
-			break;
-		case 6:
-			HAL_GPIO_WritePin(GPIOA, SEVEN_Pin, RESET);
-			break;
-		case 7:
-			HAL_GPIO_WritePin(GPIOA, EIGHT_Pin, RESET);
-			break;
-		case 8:
-			HAL_GPIO_WritePin(GPIOA, NINE_Pin, RESET);
-			break;
-		case 9:
-			HAL_GPIO_WritePin(GPIOA, TEN_Pin, RESET);
-			break;
-		case 10:
-			HAL_GPIO_WritePin(GPIOA, ELVEN_Pin, RESET);
-			break;
-		case 11:
-			HAL_GPIO_WritePin(GPIOA, TWELVE_Pin, RESET);
-			break;
 
-		default:
-			break;
-	  }
-	  num++;
+
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
