@@ -86,24 +86,21 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  void clearAllClock(){
-	  HAL_GPIO_WritePin(GPIOA, ONE_Pin|TWO_Pin|THREE_Pin|FOUR_Pin
-	  						|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
-	  						|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
-  }
-
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int num = 0;
-  clearAllClock();
+  HAL_GPIO_WritePin(GPIOA, ONE_Pin|TWO_Pin|THREE_Pin|FOUR_Pin
+						|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
+						|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
   while (1)
   {
 	  if(num==12){
 		  num = 0;
-		  clearAllClock();
+		  HAL_GPIO_WritePin(GPIOA, ONE_Pin|TWO_Pin|THREE_Pin|FOUR_Pin
+							|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
+							|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
 	  }
 	  switch (num) {
 		case 0:
