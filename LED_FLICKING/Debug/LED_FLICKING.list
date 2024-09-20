@@ -145,9 +145,9 @@ int main(void)
  80001a6:	687b      	ldr	r3, [r7, #4]
  80001a8:	3301      	adds	r3, #1
  80001aa:	607b      	str	r3, [r7, #4]
-	  if(second == 12){
+	  if(second == 60){
  80001ac:	687b      	ldr	r3, [r7, #4]
- 80001ae:	2b0c      	cmp	r3, #12
+ 80001ae:	2b3c      	cmp	r3, #60	; 0x3c
  80001b0:	d109      	bne.n	80001c6 <main+0x56>
 		  second=0;
  80001b2:	2300      	movs	r3, #0
@@ -163,9 +163,9 @@ int main(void)
  80001c4:	60bb      	str	r3, [r7, #8]
 
 	  }
-	  if(minute == 12){
+	  if(minute == 60){
  80001c6:	68bb      	ldr	r3, [r7, #8]
- 80001c8:	2b0c      	cmp	r3, #12
+ 80001c8:	2b3c      	cmp	r3, #60	; 0x3c
  80001ca:	d109      	bne.n	80001e0 <main+0x70>
 		  minute = 0;
  80001cc:	2300      	movs	r3, #0

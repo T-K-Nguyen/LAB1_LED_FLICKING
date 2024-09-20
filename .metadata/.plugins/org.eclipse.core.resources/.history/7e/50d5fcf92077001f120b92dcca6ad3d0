@@ -190,13 +190,13 @@ int main(void)
   {
 	  clearNumberOnClock(second);
 	  second++;
-	  if(second == 60){
+	  if(second == 12){
 		  second=0;
 		  clearNumberOnClock(minute);
 		  minute++;
 
 	  }
-	  if(minute == 60){
+	  if(minute == 12){
 		  minute = 0;
 		  clearNumberOnClock(hour);
 		  hour++;
