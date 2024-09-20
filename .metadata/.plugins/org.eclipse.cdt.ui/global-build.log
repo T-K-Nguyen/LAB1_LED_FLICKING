@@ -239,3 +239,107 @@ Finished building: LED_FLICKING.bin
 Finished building: LED_FLICKING.list
  
  
+12:09:46 **** Incremental Build of configuration Debug for project LED_FLICKING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:185:7: warning: unused variable 'num' [-Wunused-variable]
+  185 |   int num = 0;
+      |       ^~~
+arm-none-eabi-gcc -o "LED_FLICKING.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_FLICKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_FLICKING.elf
+ 
+arm-none-eabi-size   LED_FLICKING.elf 
+arm-none-eabi-objdump -h -S  LED_FLICKING.elf  > "LED_FLICKING.list"
+arm-none-eabi-objcopy  -O ihex  LED_FLICKING.elf  "LED_FLICKING.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5256	     20	   1572	   6848	   1ac0	LED_FLICKING.elf
+arm-none-eabi-objcopy  -O binary  LED_FLICKING.elf  "LED_FLICKING.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED_FLICKING.hex
+Finished building: LED_FLICKING.bin
+ 
+ 
+Finished building: LED_FLICKING.list
+ 
+12:09:59 **** Incremental Build of configuration Debug for project LED_FLICKING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED_FLICKING.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_FLICKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_FLICKING.elf
+ 
+arm-none-eabi-size   LED_FLICKING.elf 
+arm-none-eabi-objdump -h -S  LED_FLICKING.elf  > "LED_FLICKING.list"
+   text	   data	    bss	    dec	    hex	filename
+   5252	     20	   1572	   6844	   1abc	LED_FLICKING.elf
+arm-none-eabi-objcopy  -O ihex  LED_FLICKING.elf  "LED_FLICKING.hex"
+arm-none-eabi-objcopy  -O binary  LED_FLICKING.elf  "LED_FLICKING.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED_FLICKING.hex
+Finished building: LED_FLICKING.bin
+ 
+Finished building: LED_FLICKING.list
+ 
+ 
+12:11:58 **** Incremental Build of configuration Debug for project LED_FLICKING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED_FLICKING.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_FLICKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_FLICKING.elf
+ 
+arm-none-eabi-size   LED_FLICKING.elf 
+arm-none-eabi-objdump -h -S  LED_FLICKING.elf  > "LED_FLICKING.list"
+   text	   data	    bss	    dec	    hex	filename
+   5252	     20	   1572	   6844	   1abc	LED_FLICKING.elf
+arm-none-eabi-objcopy  -O ihex  LED_FLICKING.elf  "LED_FLICKING.hex"
+arm-none-eabi-objcopy  -O binary  LED_FLICKING.elf  "LED_FLICKING.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED_FLICKING.hex
+ 
+Finished building: LED_FLICKING.bin
+Finished building: LED_FLICKING.list
+ 
+ 
+12:14:00 **** Incremental Build of configuration Debug for project LED_FLICKING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED_FLICKING.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_FLICKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_FLICKING.elf
+ 
+arm-none-eabi-size   LED_FLICKING.elf 
+arm-none-eabi-objdump -h -S  LED_FLICKING.elf  > "LED_FLICKING.list"
+arm-none-eabi-objcopy  -O ihex  LED_FLICKING.elf  "LED_FLICKING.hex"
+arm-none-eabi-objcopy  -O binary  LED_FLICKING.elf  "LED_FLICKING.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5252	     20	   1572	   6844	   1abc	LED_FLICKING.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_FLICKING.bin
+Finished building: LED_FLICKING.hex
+ 
+ 
+Finished building: LED_FLICKING.list
+ 
+12:14:36 **** Incremental Build of configuration Debug for project LED_FLICKING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED_FLICKING.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\WORKS\Third_Year\Sem_1\VI_XL\LED_FLICKING\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_FLICKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_FLICKING.elf
+ 
+arm-none-eabi-size   LED_FLICKING.elf 
+arm-none-eabi-objdump -h -S  LED_FLICKING.elf  > "LED_FLICKING.list"
+arm-none-eabi-objcopy  -O ihex  LED_FLICKING.elf  "LED_FLICKING.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5248	     20	   1572	   6840	   1ab8	LED_FLICKING.elf
+arm-none-eabi-objcopy  -O binary  LED_FLICKING.elf  "LED_FLICKING.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED_FLICKING.hex
+Finished building: LED_FLICKING.bin
+ 
+Finished building: LED_FLICKING.list
+ 
+ 

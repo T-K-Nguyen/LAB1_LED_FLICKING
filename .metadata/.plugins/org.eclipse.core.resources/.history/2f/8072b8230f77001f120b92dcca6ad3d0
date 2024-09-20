@@ -190,25 +190,25 @@ int main(void)
   {
 	  clearNumberOnClock(second);
 	  second++;
-	  if(second == 12){
+	  if(second == 60){
 		  second=0;
 		  clearNumberOnClock(minute);
 		  minute++;
 
 	  }
-	  if(minute == 12){
+	  if(minute == 60){
 		  minute = 0;
 		  clearNumberOnClock(hour);
 		  hour++;
 	  }
-	  if(hour == 12){
+	  if(hour == 24){
 		  hour = 0;
 	  }
 
 	  setNumberOnClock(second);
 	  setNumberOnClock(minute);
 	  setNumberOnClock(hour);
-	  HAL_Delay(100);
+	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
