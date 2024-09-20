@@ -91,49 +91,6 @@ int main(void)
 	  						|FIVE_Pin|SIX_Pin|SEVEN_Pin|EIGHT_Pin
 	  						|NINE_Pin|TEN_Pin|ELVEN_Pin|TWELVE_Pin, SET);
   }
-  void clearNumberOnClock(int num){
-  	  switch (num) {
-  		case 0:
-  			HAL_GPIO_WritePin(GPIOA, ONE_Pin, SET);
-  			break;
-  		case 1:
-  			HAL_GPIO_WritePin(GPIOA, TWO_Pin, SET);
-  			break;
-  		case 2:
-  			HAL_GPIO_WritePin(GPIOA, THREE_Pin, SET);
-  			break;
-  		case 3:
-  			HAL_GPIO_WritePin(GPIOA, FOUR_Pin, SET);
-  			break;
-  		case 4:
-  			HAL_GPIO_WritePin(GPIOA, FIVE_Pin, SET);
-  			break;
-  		case 5:
-  			HAL_GPIO_WritePin(GPIOA, SIX_Pin, SET);
-  			break;
-  		case 6:
-  			HAL_GPIO_WritePin(GPIOA, SEVEN_Pin, SET);
-  			break;
-  		case 7:
-  			HAL_GPIO_WritePin(GPIOA, EIGHT_Pin, SET);
-  			break;
-  		case 8:
-  			HAL_GPIO_WritePin(GPIOA, NINE_Pin, SET);
-  			break;
-  		case 9:
-  			HAL_GPIO_WritePin(GPIOA, TEN_Pin, SET);
-  			break;
-  		case 10:
-  			HAL_GPIO_WritePin(GPIOA, ELVEN_Pin, SET);
-  			break;
-  		case 11:
-  			HAL_GPIO_WritePin(GPIOA, TWELVE_Pin, SET);
-  			break;
-
-  		default:
-  			break;
-  	  }
-    }
   void setNumberOnClock(int num){
 	  switch (num) {
 		case 0:
